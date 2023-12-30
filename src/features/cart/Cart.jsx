@@ -19,7 +19,7 @@ const Cart = () => {
 
       <ul className="mt-3 divide-y divide-stone-200 border-b">
         {cart.map((item) => (
-          <CartItem key={item.key} item={item} />
+          <CartItem key={item.pizzaId} item={item} />
         ))}
       </ul>
       <div className="mt-6 space-x-2">
